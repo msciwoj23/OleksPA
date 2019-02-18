@@ -8,7 +8,7 @@ import mainPackage.view.View;
 
 public class OperationsDesk {
 
-    private Persistence persistence;
+    public Persistence persistence;
     private View view;
 
 
