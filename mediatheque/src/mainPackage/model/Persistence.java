@@ -21,6 +21,17 @@ public class Persistence {
                 itemsInTheque.remove(i);
             }
         }
+    }
+
+    public void editMetadata(String itemID, String newAuthor, int newReleaseDate) {
+
+        for (int i = 0; i < itemsInTheque.size(); i++) {
+            MediaItem currentItem = itemsInTheque.get(i);
+            if (itemID.equals(currentItem.id)) {
+                currentItem.author = newAuthor;
+                currentItem.releaseDate = newReleaseDate;
+            }
+        }
 
     }
 }

@@ -65,4 +65,9 @@ public class OperationsDesk {
     public void removeItem(String id) {
         persistence.removeItem(id);
     }
+
+    public void editMetadata(String id, String newAuthor, int newReleaseDate) {
+
+        persistence.editMetadata(id, newAuthor, newReleaseDate);
+    }
 }

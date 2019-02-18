@@ -6,20 +6,20 @@ import mainPackage.model.mediaItems.MediaItem;
 public class Manager extends User {
 
 
-    public Manager(OperationsDesk accessToDesk) {
+    Manager(OperationsDesk accessToDesk) {
         super(accessToDesk);
     }
 
-    public void addToLibrary(MediaItem item) {
+    void addToLibrary(MediaItem item) {
         accessToDesk.addItem(item);
     }
 
-    public void removeFromLibrary(String id) {
+    void removeFromLibrary(String id) {
         accessToDesk.removeItem(id);
 
     }
 
-    private void editMetadata(MediaItem item) {
-
+    public void editMetadata(String id, String newAuthor, int newReleaseDate) {
+        accessToDesk.editMetadata(id, newAuthor, newReleaseDate);
     }
 }
