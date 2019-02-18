@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94622f69-1cbf-487d-af00-48696d5ccdaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" afterDir="false" />
-    </list>
+    <list default="true" id="94622f69-1cbf-487d-af00-48696d5ccdaa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,25 +19,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="JAVA/mainPackage" value="1" />
+          <entry key="JAVA/mainPackage" value="2" />
           <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="24" />
-          <entry key="UML" value="1" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="2046" />
+          <entry key="java" value="2051" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2046" />
+          <entry key="JAVA" value="2051" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -92,15 +87,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -128,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Persistence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
@@ -163,14 +149,199 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="31" column="63" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="287">
+              <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/mainPackage">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>mainPackage</OriginalElement>
+              <nodes>
+                <node x="363.3380952380952" y="296.5">mainPackage.model.mediaItems.Album</node>
+                <node x="887.4520833333333" y="248.0">mainPackage.model.User</node>
+                <node x="1089.4885416666666" y="1000.0">mainPackage.model.Manager</node>
+                <node x="595.8968749999999" y="0.0">mainPackage.model.mediaItems.MediaItem</node>
+                <node x="628.3380952380952" y="475.0">mainPackage.model.Persistence</node>
+                <node x="1299.6187499999999" y="296.5">mainPackage.model.mediaItems.Magazine</node>
+                <node x="0.0" y="36.5">mainPackage.model.interFaces.WatchAble</node>
+                <node x="793.6360119047619" y="677.0">mainPackage.controller.OperationsDesk</node>
+                <node x="1577.8297619047619" y="36.5">mainPackage.model.interFaces.ReadAble</node>
+                <node x="102.3380952380952" y="272.0">mainPackage.model.mediaItems.Movie</node>
+                <node x="1000.2130952380952" y="523.5">mainPackage.view.View</node>
+                <node x="806.1360119047619" y="1036.5">mainPackage.controller.Main</node>
+                <node x="1584.6187499999999" y="284.0">mainPackage.model.mediaItems.Book</node>
+                <node x="206.52083333333326" y="36.5">mainPackage.model.interFaces.ListenAble</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.interFaces.ReadAble">
+                  <point x="88.33333333333331" y="-40.0" />
+                  <point x="1520.4520833333331" y="228.0" />
+                  <point x="1618.8297619047619" y="228.0" />
+                  <point x="-41.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.Persistence" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="0.0" y="-76.0" />
+                  <point x="795.3380952380952" y="455.0" />
+                  <point x="751.2193452380952" y="455.0" />
+                  <point x="751.2193452380952" y="228.0" />
+                  <point x="731.8968749999999" y="228.0" />
+                  <point x="0.0" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.ListenAble">
+                  <point x="-30.125" y="-64.5" />
+                  <point x="192.7130952380952" y="178.0" />
+                  <point x="253.52083333333326" y="178.0" />
+                  <point x="-47.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="81.33333333333326" y="-40.0" />
+                  <point x="566.6714285714285" y="218.0" />
+                  <point x="659.3635416666666" y="218.0" />
+                  <point x="-72.5333333333333" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.Manager" target="mainPackage.controller.OperationsDesk">
+                  <point x="-120.75" y="-64.0" />
+                  <point x="1129.7385416666666" y="980.0" />
+                  <point x="1061.9693452380952" y="980.0" />
+                  <point x="107.33333333333326" y="136.5" />
+                </edge>
+                <edge source="mainPackage.model.User" target="mainPackage.controller.OperationsDesk">
+                  <point x="-26.33333333333337" y="88.5" />
+                  <point x="1019.1187499999999" y="445.0" />
+                  <point x="972.8380952380952" y="445.0" />
+                  <point x="972.8380952380952" y="657.0" />
+                  <point x="954.6360119047619" y="657.0" />
+                  <point x="0.0" y="-136.5" />
+                </edge>
+                <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.view.View">
+                  <point x="92.0" y="-136.5" />
+                  <point x="1046.6360119047617" y="657.0" />
+                  <point x="1054.2130952380953" y="657.0" />
+                  <point x="-54.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.Manager" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="120.75" y="-64.0" />
+                  <point x="1371.2385416666666" y="970.0" />
+                  <point x="1289.1187499999999" y="970.0" />
+                  <point x="1289.1187499999999" y="198.0" />
+                  <point x="786.296875" y="198.0" />
+                  <point x="54.39999999999998" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.interFaces.ListenAble">
+                  <point x="-81.33333333333326" y="-40.0" />
+                  <point x="404.00476190476195" y="178.0" />
+                  <point x="347.52083333333326" y="178.0" />
+                  <point x="47.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="0.0" y="-52.5" />
+                  <point x="1702.1187499999999" y="158.0" />
+                  <point x="858.8302083333333" y="158.0" />
+                  <point x="126.93333333333328" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.User" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="79.0" y="-88.5" />
+                  <point x="1124.4520833333333" y="208.0" />
+                  <point x="768.1635416666666" y="208.0" />
+                  <point x="36.26666666666665" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-88.33333333333331" y="-40.0" />
+                  <point x="1343.7854166666666" y="188.0" />
+                  <point x="804.4302083333332" y="188.0" />
+                  <point x="72.5333333333333" y="64.0" />
+                </edge>
+                <edge source="mainPackage.controller.Main" target="mainPackage.controller.OperationsDesk">
+                  <point x="-49.5" y="-27.5" />
+                  <point x="855.6360119047619" y="980.0" />
+                  <point x="847.3026785714285" y="980.0" />
+                  <point x="-107.33333333333337" y="136.5" />
+                </edge>
+                <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.Persistence">
+                  <point x="-92.0" y="-136.5" />
+                  <point x="862.6360119047619" y="647.0" />
+                  <point x="711.8380952380952" y="647.0" />
+                  <point x="-83.5" y="76.0" />
+                </edge>
+                <edge source="mainPackage.model.Manager" target="mainPackage.model.User">
+                  <point x="-40.25" y="-64.0" />
+                  <point x="1210.2385416666666" y="980.0" />
+                  <point x="1267.1187499999999" y="980.0" />
+                  <point x="1267.1187499999999" y="455.0" />
+                  <point x="1124.4520833333333" y="455.0" />
+                  <point x="79.0" y="88.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.interFaces.ReadAble">
+                  <point x="78.33333333333331" y="-52.5" />
+                  <point x="1780.4520833333331" y="148.0" />
+                  <point x="1700.8297619047619" y="148.0" />
+                  <point x="41.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="90.375" y="-64.5" />
+                  <point x="313.2130952380952" y="198.0" />
+                  <point x="623.096875" y="198.0" />
+                  <point x="-108.79999999999995" y="64.0" />
+                </edge>
+                <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-138.0" y="-136.5" />
+                  <point x="816.6360119047619" y="657.0" />
+                  <point x="617.8380952380952" y="657.0" />
+                  <point x="617.8380952380952" y="228.0" />
+                  <point x="677.496875" y="228.0" />
+                  <point x="-54.39999999999998" y="64.0" />
+                </edge>
+                <edge source="mainPackage.model.Persistence" target="mainPackage.model.User">
+                  <point x="66.79999999999995" y="-76.0" />
+                  <point x="862.1380952380952" y="455.0" />
+                  <point x="913.7854166666666" y="455.0" />
+                  <point x="-131.66666666666663" y="88.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.WatchAble">
+                  <point x="-90.375" y="-64.5" />
+                  <point x="132.4630952380952" y="228.0" />
+                  <point x="87.5" y="228.0" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="850.285714285714" y="562.9999999999999" />
+              <SelectedNodes>
+                <node>mainPackage.model.mediaItems.Album</node>
+                <node>mainPackage.model.User</node>
+                <node>mainPackage.model.Manager</node>
+                <node>mainPackage.model.mediaItems.MediaItem</node>
+                <node>mainPackage.model.Persistence</node>
+                <node>mainPackage.model.mediaItems.Magazine</node>
+                <node>mainPackage.model.interFaces.WatchAble</node>
+                <node>mainPackage.controller.OperationsDesk</node>
+                <node>mainPackage.model.interFaces.ReadAble</node>
+                <node>mainPackage.model.mediaItems.Movie</node>
+                <node>mainPackage.view.View</node>
+                <node>mainPackage.controller.Main</node>
+                <node>mainPackage.model.mediaItems.Book</node>
+                <node>mainPackage.model.interFaces.ListenAble</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -247,41 +418,6 @@
             <path>
               <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
               <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="mediaItems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,10 +438,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550488808943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550489157995" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -381,32 +517,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550479372442</updated>
-      <workItem from="1550479373674" duration="8525000" />
+      <workItem from="1550479373674" duration="9018000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 06m 02s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 08m 47s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 09m 40s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 10m 09s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 10m 42s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 12m 10s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.02.18 at 12h 13m 10s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ManagerTest - 2019.02.18 at 12h 13m 39s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
@@ -416,9 +531,30 @@
     <history-entry file="ManagerTest - 2019.02.18 at 12h 15m 23s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 17m 15s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 17m 53s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 18m 02s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 18m 09s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 19m 05s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 19m 16s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.02.18 at 12h 20m 09s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8525000" />
+    <option name="totallyTimeSpent" value="9018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
@@ -430,7 +566,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19809069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -439,7 +575,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39130434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1552795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,150 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/mainPackage">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>mainPackage</OriginalElement>
-          <nodes>
-            <node x="291.29901960784304" y="208.0">mainPackage.model.mediaItems.Album</node>
-            <node x="511.29901960784304" y="159.0">mainPackage.model.User</node>
-            <node x="761.1519607843137" y="362.0">mainPackage.model.Manager</node>
-            <node x="501.49999999999994" y="0.0">mainPackage.model.mediaItems.MediaItem</node>
-            <node x="407.1519607843137" y="386.5">mainPackage.model.Persistence</node>
-            <node x="1155.3823529411764" y="208.0">mainPackage.model.mediaItems.Magazine</node>
-            <node x="0.0" y="12.0">mainPackage.model.interFaces.WatchAble</node>
-            <node x="274.7254901960784" y="540.0">mainPackage.controller.OperationsDesk</node>
-            <node x="1138.3235294117646" y="12.0">mainPackage.model.interFaces.ReadAble</node>
-            <node x="70.88235294117635" y="183.5">mainPackage.model.mediaItems.Movie</node>
-            <node x="171.1519607843137" y="398.5">mainPackage.view.View</node>
-            <node x="302.7254901960784" y="791.0">mainPackage.controller.Main</node>
-            <node x="971.3823529411764" y="195.5">mainPackage.model.mediaItems.Book</node>
-            <node x="194.99999999999994" y="12.0">mainPackage.model.interFaces.ListenAble</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.interFaces.ReadAble">
-              <point x="41.0" y="-27.5" />
-              <point x="1278.3823529411764" y="139.0" />
-              <point x="1261.3235294117646" y="139.0" />
-              <point x="41.0" y="27.5" />
-            </edge>
-            <edge source="mainPackage.model.Persistence" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="-41.75" y="-39.5" />
-              <point x="532.4019607843137" y="337.0" />
-              <point x="500.79901960784304" y="337.0" />
-              <point x="500.79901960784304" y="139.0" />
-              <point x="568.7777777777777" y="139.0" />
-              <point x="-19.22222222222223" y="39.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.ListenAble">
-              <point x="0.0" y="-52.0" />
-              <point x="164.88235294117635" y="99.0" />
-              <point x="241.99999999999994" y="99.0" />
-              <point x="-47.0" y="27.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="47.0" y="-27.5" />
-              <point x="432.29901960784304" y="119.0" />
-              <point x="530.3333333333333" y="119.0" />
-              <point x="-57.666666666666686" y="39.5" />
-            </edge>
-            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.view.View">
-              <point x="-95.25" y="-100.5" />
-              <point x="306.4754901960784" y="515.0" />
-              <point x="225.1519607843137" y="515.0" />
-              <point x="-54.0" y="27.5" />
-            </edge>
-            <edge source="mainPackage.model.Manager" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="80.25" y="-64.0" />
-              <point x="1001.9019607843137" y="337.0" />
-              <point x="960.8823529411764" y="337.0" />
-              <point x="960.8823529411764" y="129.0" />
-              <point x="626.4444444444443" y="129.0" />
-              <point x="38.44444444444446" y="39.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.interFaces.ListenAble">
-              <point x="-47.0" y="-27.5" />
-              <point x="338.29901960784304" y="99.0" />
-              <point x="335.99999999999994" y="99.0" />
-              <point x="47.0" y="27.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="-41.0" y="-40.0" />
-              <point x="1012.3823529411764" y="119.0" />
-              <point x="645.6666666666665" y="119.0" />
-              <point x="57.66666666666663" y="39.5" />
-            </edge>
-            <edge source="mainPackage.model.User" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="-79.0" y="-76.5" />
-              <point x="590.2990196078431" y="139.0" />
-              <point x="588.0" y="139.0" />
-              <point x="0.0" y="39.5" />
-            </edge>
-            <edge source="mainPackage.controller.Main" target="mainPackage.controller.OperationsDesk">
-              <point x="0.0" y="-27.5" />
-              <point x="0.0" y="100.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="-41.0" y="-27.5" />
-              <point x="1196.3823529411764" y="109.0" />
-              <point x="664.8888888888889" y="109.0" />
-              <point x="76.88888888888891" y="39.5" />
-            </edge>
-            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.Persistence">
-              <point x="31.75" y="-100.5" />
-              <point x="433.4754901960784" y="515.0" />
-              <point x="490.6519607843137" y="515.0" />
-              <point x="-83.5" y="39.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.interFaces.ReadAble">
-              <point x="41.0" y="-40.0" />
-              <point x="1094.3823529411764" y="139.0" />
-              <point x="1179.3235294117646" y="139.0" />
-              <point x="-41.0" y="27.5" />
-            </edge>
-            <edge source="mainPackage.model.Manager" target="mainPackage.model.User">
-              <point x="-80.25" y="-64.0" />
-              <point x="841.4019607843137" y="337.0" />
-              <point x="774.6323529411764" y="337.0" />
-              <point x="105.33333333333326" y="76.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.mediaItems.MediaItem">
-              <point x="62.66666666666674" y="-52.0" />
-              <point x="227.5490196078431" y="109.0" />
-              <point x="511.11111111111103" y="109.0" />
-              <point x="-76.88888888888891" y="39.5" />
-            </edge>
-            <edge source="mainPackage.model.Persistence" target="mainPackage.model.User">
-              <point x="41.75" y="-39.5" />
-              <point x="615.9019607843137" y="337.0" />
-              <point x="563.9656862745097" y="337.0" />
-              <point x="-105.33333333333331" y="76.5" />
-            </edge>
-            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.WatchAble">
-              <point x="-62.66666666666674" y="-52.0" />
-              <point x="102.21568627450961" y="139.0" />
-              <point x="87.5" y="139.0" />
-              <point x="0.0" y="27.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="431.90476190476176" y="283.5714285714285" />
-          <SelectedNodes>
-            <node>mainPackage.controller.Main</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -739,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Persistence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
@@ -750,11 +742,194 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="31" column="63" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="287">
+          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mainPackage">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mainPackage</OriginalElement>
+          <nodes>
+            <node x="363.3380952380952" y="296.5">mainPackage.model.mediaItems.Album</node>
+            <node x="887.4520833333333" y="248.0">mainPackage.model.User</node>
+            <node x="1089.4885416666666" y="1000.0">mainPackage.model.Manager</node>
+            <node x="595.8968749999999" y="0.0">mainPackage.model.mediaItems.MediaItem</node>
+            <node x="628.3380952380952" y="475.0">mainPackage.model.Persistence</node>
+            <node x="1299.6187499999999" y="296.5">mainPackage.model.mediaItems.Magazine</node>
+            <node x="0.0" y="36.5">mainPackage.model.interFaces.WatchAble</node>
+            <node x="793.6360119047619" y="677.0">mainPackage.controller.OperationsDesk</node>
+            <node x="1577.8297619047619" y="36.5">mainPackage.model.interFaces.ReadAble</node>
+            <node x="102.3380952380952" y="272.0">mainPackage.model.mediaItems.Movie</node>
+            <node x="1000.2130952380952" y="523.5">mainPackage.view.View</node>
+            <node x="806.1360119047619" y="1036.5">mainPackage.controller.Main</node>
+            <node x="1584.6187499999999" y="284.0">mainPackage.model.mediaItems.Book</node>
+            <node x="206.52083333333326" y="36.5">mainPackage.model.interFaces.ListenAble</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.interFaces.ReadAble">
+              <point x="88.33333333333331" y="-40.0" />
+              <point x="1520.4520833333331" y="228.0" />
+              <point x="1618.8297619047619" y="228.0" />
+              <point x="-41.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.Persistence" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="0.0" y="-76.0" />
+              <point x="795.3380952380952" y="455.0" />
+              <point x="751.2193452380952" y="455.0" />
+              <point x="751.2193452380952" y="228.0" />
+              <point x="731.8968749999999" y="228.0" />
+              <point x="0.0" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.ListenAble">
+              <point x="-30.125" y="-64.5" />
+              <point x="192.7130952380952" y="178.0" />
+              <point x="253.52083333333326" y="178.0" />
+              <point x="-47.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="81.33333333333326" y="-40.0" />
+              <point x="566.6714285714285" y="218.0" />
+              <point x="659.3635416666666" y="218.0" />
+              <point x="-72.5333333333333" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.Manager" target="mainPackage.controller.OperationsDesk">
+              <point x="-120.75" y="-64.0" />
+              <point x="1129.7385416666666" y="980.0" />
+              <point x="1061.9693452380952" y="980.0" />
+              <point x="107.33333333333326" y="136.5" />
+            </edge>
+            <edge source="mainPackage.model.User" target="mainPackage.controller.OperationsDesk">
+              <point x="-26.33333333333337" y="88.5" />
+              <point x="1019.1187499999999" y="445.0" />
+              <point x="972.8380952380952" y="445.0" />
+              <point x="972.8380952380952" y="657.0" />
+              <point x="954.6360119047619" y="657.0" />
+              <point x="0.0" y="-136.5" />
+            </edge>
+            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.view.View">
+              <point x="92.0" y="-136.5" />
+              <point x="1046.6360119047617" y="657.0" />
+              <point x="1054.2130952380953" y="657.0" />
+              <point x="-54.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.Manager" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="120.75" y="-64.0" />
+              <point x="1371.2385416666666" y="970.0" />
+              <point x="1289.1187499999999" y="970.0" />
+              <point x="1289.1187499999999" y="198.0" />
+              <point x="786.296875" y="198.0" />
+              <point x="54.39999999999998" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.interFaces.ListenAble">
+              <point x="-81.33333333333326" y="-40.0" />
+              <point x="404.00476190476195" y="178.0" />
+              <point x="347.52083333333326" y="178.0" />
+              <point x="47.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="0.0" y="-52.5" />
+              <point x="1702.1187499999999" y="158.0" />
+              <point x="858.8302083333333" y="158.0" />
+              <point x="126.93333333333328" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.User" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="79.0" y="-88.5" />
+              <point x="1124.4520833333333" y="208.0" />
+              <point x="768.1635416666666" y="208.0" />
+              <point x="36.26666666666665" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-88.33333333333331" y="-40.0" />
+              <point x="1343.7854166666666" y="188.0" />
+              <point x="804.4302083333332" y="188.0" />
+              <point x="72.5333333333333" y="64.0" />
+            </edge>
+            <edge source="mainPackage.controller.Main" target="mainPackage.controller.OperationsDesk">
+              <point x="-49.5" y="-27.5" />
+              <point x="855.6360119047619" y="980.0" />
+              <point x="847.3026785714285" y="980.0" />
+              <point x="-107.33333333333337" y="136.5" />
+            </edge>
+            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.Persistence">
+              <point x="-92.0" y="-136.5" />
+              <point x="862.6360119047619" y="647.0" />
+              <point x="711.8380952380952" y="647.0" />
+              <point x="-83.5" y="76.0" />
+            </edge>
+            <edge source="mainPackage.model.Manager" target="mainPackage.model.User">
+              <point x="-40.25" y="-64.0" />
+              <point x="1210.2385416666666" y="980.0" />
+              <point x="1267.1187499999999" y="980.0" />
+              <point x="1267.1187499999999" y="455.0" />
+              <point x="1124.4520833333333" y="455.0" />
+              <point x="79.0" y="88.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.interFaces.ReadAble">
+              <point x="78.33333333333331" y="-52.5" />
+              <point x="1780.4520833333331" y="148.0" />
+              <point x="1700.8297619047619" y="148.0" />
+              <point x="41.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="90.375" y="-64.5" />
+              <point x="313.2130952380952" y="198.0" />
+              <point x="623.096875" y="198.0" />
+              <point x="-108.79999999999995" y="64.0" />
+            </edge>
+            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-138.0" y="-136.5" />
+              <point x="816.6360119047619" y="657.0" />
+              <point x="617.8380952380952" y="657.0" />
+              <point x="617.8380952380952" y="228.0" />
+              <point x="677.496875" y="228.0" />
+              <point x="-54.39999999999998" y="64.0" />
+            </edge>
+            <edge source="mainPackage.model.Persistence" target="mainPackage.model.User">
+              <point x="66.79999999999995" y="-76.0" />
+              <point x="862.1380952380952" y="455.0" />
+              <point x="913.7854166666666" y="455.0" />
+              <point x="-131.66666666666663" y="88.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.WatchAble">
+              <point x="-90.375" y="-64.5" />
+              <point x="132.4630952380952" y="228.0" />
+              <point x="87.5" y="228.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="850.285714285714" y="562.9999999999999" />
+          <SelectedNodes>
+            <node>mainPackage.model.mediaItems.Album</node>
+            <node>mainPackage.model.User</node>
+            <node>mainPackage.model.Manager</node>
+            <node>mainPackage.model.mediaItems.MediaItem</node>
+            <node>mainPackage.model.Persistence</node>
+            <node>mainPackage.model.mediaItems.Magazine</node>
+            <node>mainPackage.model.interFaces.WatchAble</node>
+            <node>mainPackage.controller.OperationsDesk</node>
+            <node>mainPackage.model.interFaces.ReadAble</node>
+            <node>mainPackage.model.mediaItems.Movie</node>
+            <node>mainPackage.view.View</node>
+            <node>mainPackage.controller.Main</node>
+            <node>mainPackage.model.mediaItems.Book</node>
+            <node>mainPackage.model.interFaces.ListenAble</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
