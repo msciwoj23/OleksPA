@@ -1,5 +1,6 @@
 package mainPackage.model;
 
+import mainPackage.controller.OperationsDesk;
 import mainPackage.model.mediaItems.MediaItem;
 
 import java.util.LinkedList;
@@ -8,8 +9,12 @@ public class User {
 
     public LinkedList<MediaItem> rentedItems;
 
-    public User() {
+    protected OperationsDesk accessToDesk;
+
+    public User(OperationsDesk accessToDesk) {
+
         rentedItems = new LinkedList<MediaItem>();
+        this.accessToDesk = accessToDesk;
     }
 
     private void preview() {}

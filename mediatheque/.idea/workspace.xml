@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94622f69-1cbf-487d-af00-48696d5ccdaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,23 +30,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
+          <entry key="JAVA/mainPackage" value="1" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="22" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="955" />
+          <entry key="java" value="1410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="955" />
+          <entry key="JAVA" value="1410" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -46,22 +57,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,8 +72,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,60 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/interFaces/ReadAble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +98,227 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Persistence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/mainPackage">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>mainPackage</OriginalElement>
+              <nodes>
+                <node x="291.29901960784304" y="208.0">mainPackage.model.mediaItems.Album</node>
+                <node x="511.29901960784304" y="159.0">mainPackage.model.User</node>
+                <node x="761.1519607843137" y="362.0">mainPackage.model.Manager</node>
+                <node x="501.49999999999994" y="0.0">mainPackage.model.mediaItems.MediaItem</node>
+                <node x="407.1519607843137" y="386.5">mainPackage.model.Persistence</node>
+                <node x="1155.3823529411764" y="208.0">mainPackage.model.mediaItems.Magazine</node>
+                <node x="0.0" y="12.0">mainPackage.model.interFaces.WatchAble</node>
+                <node x="274.7254901960784" y="540.0">mainPackage.controller.OperationsDesk</node>
+                <node x="1138.3235294117646" y="12.0">mainPackage.model.interFaces.ReadAble</node>
+                <node x="70.88235294117635" y="183.5">mainPackage.model.mediaItems.Movie</node>
+                <node x="171.1519607843137" y="398.5">mainPackage.view.View</node>
+                <node x="302.7254901960784" y="791.0">mainPackage.controller.Main</node>
+                <node x="971.3823529411764" y="195.5">mainPackage.model.mediaItems.Book</node>
+                <node x="194.99999999999994" y="12.0">mainPackage.model.interFaces.ListenAble</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.interFaces.ReadAble">
+                  <point x="41.0" y="-27.5" />
+                  <point x="1278.3823529411764" y="139.0" />
+                  <point x="1261.3235294117646" y="139.0" />
+                  <point x="41.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.Persistence" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-41.75" y="-39.5" />
+                  <point x="532.4019607843137" y="337.0" />
+                  <point x="500.79901960784304" y="337.0" />
+                  <point x="500.79901960784304" y="139.0" />
+                  <point x="568.7777777777777" y="139.0" />
+                  <point x="-19.22222222222223" y="39.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.ListenAble">
+                  <point x="0.0" y="-52.0" />
+                  <point x="164.88235294117635" y="99.0" />
+                  <point x="241.99999999999994" y="99.0" />
+                  <point x="-47.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="47.0" y="-27.5" />
+                  <point x="432.29901960784304" y="119.0" />
+                  <point x="530.3333333333333" y="119.0" />
+                  <point x="-57.666666666666686" y="39.5" />
+                </edge>
+                <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.view.View">
+                  <point x="-95.25" y="-100.5" />
+                  <point x="306.4754901960784" y="515.0" />
+                  <point x="225.1519607843137" y="515.0" />
+                  <point x="-54.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.Manager" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="80.25" y="-64.0" />
+                  <point x="1001.9019607843137" y="337.0" />
+                  <point x="960.8823529411764" y="337.0" />
+                  <point x="960.8823529411764" y="129.0" />
+                  <point x="626.4444444444443" y="129.0" />
+                  <point x="38.44444444444446" y="39.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.interFaces.ListenAble">
+                  <point x="-47.0" y="-27.5" />
+                  <point x="338.29901960784304" y="99.0" />
+                  <point x="335.99999999999994" y="99.0" />
+                  <point x="47.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-41.0" y="-40.0" />
+                  <point x="1012.3823529411764" y="119.0" />
+                  <point x="645.6666666666665" y="119.0" />
+                  <point x="57.66666666666663" y="39.5" />
+                </edge>
+                <edge source="mainPackage.model.User" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-79.0" y="-76.5" />
+                  <point x="590.2990196078431" y="139.0" />
+                  <point x="588.0" y="139.0" />
+                  <point x="0.0" y="39.5" />
+                </edge>
+                <edge source="mainPackage.controller.Main" target="mainPackage.controller.OperationsDesk">
+                  <point x="0.0" y="-27.5" />
+                  <point x="0.0" y="100.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="-41.0" y="-27.5" />
+                  <point x="1196.3823529411764" y="109.0" />
+                  <point x="664.8888888888889" y="109.0" />
+                  <point x="76.88888888888891" y="39.5" />
+                </edge>
+                <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.Persistence">
+                  <point x="31.75" y="-100.5" />
+                  <point x="433.4754901960784" y="515.0" />
+                  <point x="490.6519607843137" y="515.0" />
+                  <point x="-83.5" y="39.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.interFaces.ReadAble">
+                  <point x="41.0" y="-40.0" />
+                  <point x="1094.3823529411764" y="139.0" />
+                  <point x="1179.3235294117646" y="139.0" />
+                  <point x="-41.0" y="27.5" />
+                </edge>
+                <edge source="mainPackage.model.Manager" target="mainPackage.model.User">
+                  <point x="-80.25" y="-64.0" />
+                  <point x="841.4019607843137" y="337.0" />
+                  <point x="774.6323529411764" y="337.0" />
+                  <point x="105.33333333333326" y="76.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.mediaItems.MediaItem">
+                  <point x="62.66666666666674" y="-52.0" />
+                  <point x="227.5490196078431" y="109.0" />
+                  <point x="511.11111111111103" y="109.0" />
+                  <point x="-76.88888888888891" y="39.5" />
+                </edge>
+                <edge source="mainPackage.model.Persistence" target="mainPackage.model.User">
+                  <point x="41.75" y="-39.5" />
+                  <point x="615.9019607843137" y="337.0" />
+                  <point x="563.9656862745097" y="337.0" />
+                  <point x="-105.33333333333331" y="76.5" />
+                </edge>
+                <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.WatchAble">
+                  <point x="-62.66666666666674" y="-52.0" />
+                  <point x="102.21568627450961" y="139.0" />
+                  <point x="87.5" y="139.0" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="431.90476190476176" y="283.5714285714285" />
+              <SelectedNodes>
+                <node>mainPackage.controller.Main</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +330,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -163,20 +341,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/mainPackage/view/View.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/Manager.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/ListenAble.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/WatchAble.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/ReadAble.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/interFaces/ReadAble.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/User.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java" />
-        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java" />
         <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/Persistence.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/User.java" />
+        <option value="$PROJECT_DIR$/src/mainPackage/model/Manager.java" />
+        <option value="$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java" />
       </list>
     </option>
   </component>
@@ -248,6 +427,17 @@
               <item name="mainPackage" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mediatheque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediatheque" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -255,12 +445,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550478957499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550485207377" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mainPackage.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,6 +477,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mediatheque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mainPackage.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mainPackage.model" />
+      <option name="MAIN_CLASS_NAME" value="mainPackage.model.ManagerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -284,12 +508,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550479372442</updated>
-      <workItem from="1550479373674" duration="3213000" />
+      <workItem from="1550479373674" duration="5238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3213000" />
+    <option name="totallyTimeSpent" value="5238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
@@ -339,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Persistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#146#157#0" expanded="true" />
-            <element signature="e#204#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/model/interFaces/ListenAble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -370,34 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,45 +598,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+    <entry file="uml://JAVA/mainPackage">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mainPackage</OriginalElement>
+          <nodes>
+            <node x="291.29901960784304" y="208.0">mainPackage.model.mediaItems.Album</node>
+            <node x="511.29901960784304" y="159.0">mainPackage.model.User</node>
+            <node x="761.1519607843137" y="362.0">mainPackage.model.Manager</node>
+            <node x="501.49999999999994" y="0.0">mainPackage.model.mediaItems.MediaItem</node>
+            <node x="407.1519607843137" y="386.5">mainPackage.model.Persistence</node>
+            <node x="1155.3823529411764" y="208.0">mainPackage.model.mediaItems.Magazine</node>
+            <node x="0.0" y="12.0">mainPackage.model.interFaces.WatchAble</node>
+            <node x="274.7254901960784" y="540.0">mainPackage.controller.OperationsDesk</node>
+            <node x="1138.3235294117646" y="12.0">mainPackage.model.interFaces.ReadAble</node>
+            <node x="70.88235294117635" y="183.5">mainPackage.model.mediaItems.Movie</node>
+            <node x="171.1519607843137" y="398.5">mainPackage.view.View</node>
+            <node x="302.7254901960784" y="791.0">mainPackage.controller.Main</node>
+            <node x="971.3823529411764" y="195.5">mainPackage.model.mediaItems.Book</node>
+            <node x="194.99999999999994" y="12.0">mainPackage.model.interFaces.ListenAble</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.interFaces.ReadAble">
+              <point x="41.0" y="-27.5" />
+              <point x="1278.3823529411764" y="139.0" />
+              <point x="1261.3235294117646" y="139.0" />
+              <point x="41.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.Persistence" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-41.75" y="-39.5" />
+              <point x="532.4019607843137" y="337.0" />
+              <point x="500.79901960784304" y="337.0" />
+              <point x="500.79901960784304" y="139.0" />
+              <point x="568.7777777777777" y="139.0" />
+              <point x="-19.22222222222223" y="39.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.ListenAble">
+              <point x="0.0" y="-52.0" />
+              <point x="164.88235294117635" y="99.0" />
+              <point x="241.99999999999994" y="99.0" />
+              <point x="-47.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="47.0" y="-27.5" />
+              <point x="432.29901960784304" y="119.0" />
+              <point x="530.3333333333333" y="119.0" />
+              <point x="-57.666666666666686" y="39.5" />
+            </edge>
+            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.view.View">
+              <point x="-95.25" y="-100.5" />
+              <point x="306.4754901960784" y="515.0" />
+              <point x="225.1519607843137" y="515.0" />
+              <point x="-54.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.Manager" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="80.25" y="-64.0" />
+              <point x="1001.9019607843137" y="337.0" />
+              <point x="960.8823529411764" y="337.0" />
+              <point x="960.8823529411764" y="129.0" />
+              <point x="626.4444444444443" y="129.0" />
+              <point x="38.44444444444446" y="39.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Album" target="mainPackage.model.interFaces.ListenAble">
+              <point x="-47.0" y="-27.5" />
+              <point x="338.29901960784304" y="99.0" />
+              <point x="335.99999999999994" y="99.0" />
+              <point x="47.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-41.0" y="-40.0" />
+              <point x="1012.3823529411764" y="119.0" />
+              <point x="645.6666666666665" y="119.0" />
+              <point x="57.66666666666663" y="39.5" />
+            </edge>
+            <edge source="mainPackage.model.User" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-79.0" y="-76.5" />
+              <point x="590.2990196078431" y="139.0" />
+              <point x="588.0" y="139.0" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="mainPackage.controller.Main" target="mainPackage.controller.OperationsDesk">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="100.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Magazine" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="-41.0" y="-27.5" />
+              <point x="1196.3823529411764" y="109.0" />
+              <point x="664.8888888888889" y="109.0" />
+              <point x="76.88888888888891" y="39.5" />
+            </edge>
+            <edge source="mainPackage.controller.OperationsDesk" target="mainPackage.model.Persistence">
+              <point x="31.75" y="-100.5" />
+              <point x="433.4754901960784" y="515.0" />
+              <point x="490.6519607843137" y="515.0" />
+              <point x="-83.5" y="39.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Book" target="mainPackage.model.interFaces.ReadAble">
+              <point x="41.0" y="-40.0" />
+              <point x="1094.3823529411764" y="139.0" />
+              <point x="1179.3235294117646" y="139.0" />
+              <point x="-41.0" y="27.5" />
+            </edge>
+            <edge source="mainPackage.model.Manager" target="mainPackage.model.User">
+              <point x="-80.25" y="-64.0" />
+              <point x="841.4019607843137" y="337.0" />
+              <point x="774.6323529411764" y="337.0" />
+              <point x="105.33333333333326" y="76.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.mediaItems.MediaItem">
+              <point x="62.66666666666674" y="-52.0" />
+              <point x="227.5490196078431" y="109.0" />
+              <point x="511.11111111111103" y="109.0" />
+              <point x="-76.88888888888891" y="39.5" />
+            </edge>
+            <edge source="mainPackage.model.Persistence" target="mainPackage.model.User">
+              <point x="41.75" y="-39.5" />
+              <point x="615.9019607843137" y="337.0" />
+              <point x="563.9656862745097" y="337.0" />
+              <point x="-105.33333333333331" y="76.5" />
+            </edge>
+            <edge source="mainPackage.model.mediaItems.Movie" target="mainPackage.model.interFaces.WatchAble">
+              <point x="-62.66666666666674" y="-52.0" />
+              <point x="102.21568627450961" y="139.0" />
+              <point x="87.5" y="139.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="431.90476190476176" y="283.5714285714285" />
+          <SelectedNodes>
+            <node>mainPackage.controller.Main</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java">
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/MediaItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/model/mediaItems/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Persistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/controller/OperationsDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/model/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/mainPackage/model/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
