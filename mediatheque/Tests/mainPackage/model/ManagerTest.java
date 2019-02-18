@@ -21,8 +21,6 @@ public class ManagerTest {
         assertTrue(operationsDesk.persistence.itemsInTheque.size() == 0);
         manager.addToLibrary(book);
 
-        // System.out.println(persistence.itemsInTheque.getFirst().id);
-
         assertTrue(operationsDesk.persistence.itemsInTheque.size() == 1);
 
 
@@ -31,7 +29,18 @@ public class ManagerTest {
 
     @Test
     public void removeFromLibrary() {
-        assertTrue(false);
+        OperationsDesk operationsDesk = new OperationsDesk();
+        Book book = new Book("1", "Some Author", 1984);
+        Manager manager = new Manager(operationsDesk);
+        Persistence persistence = new Persistence();
+
+        manager.addToLibrary(book);
+
+        assertTrue(operationsDesk.persistence.itemsInTheque.size() == 1);
+
+        manager.removeFromLibrary("1");
+
+        assertTrue(operationsDesk.persistence.itemsInTheque.size() == 0);
 
     }
 
